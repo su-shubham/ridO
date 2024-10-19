@@ -1,0 +1,83 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+./frontend/.next/
+/out/
+.next-env.d.ts
+./frontend/node_modules
+
+# Production
+/build
+
+# Go binaries and object files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Go temporary files
+*.o
+*.a
+
+# Debug files
+debug/
+debug.test
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.bak
+*.sublime*
+.DS_Store
+
+# Misc
+*.pem
+.DS_Store
+*.pem
+.env.local
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Docker
+.docker/
+
+# Storage
+/storage/*
+!/storage/.gitkeep
+
+# Build outputs
+/dist
+/tmp
+/bin
+
+# Cache directories
+.cache/
